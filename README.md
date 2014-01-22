@@ -32,6 +32,9 @@ storage.put key, value, (e) ->
 storage.exists key, (e, exists) ->
 
 storage.size key, (e, num_bytes) ->
+  return ... if e and e.notFound
+  return ... if e
+  ...
 ```
 
 
