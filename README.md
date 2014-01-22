@@ -1,5 +1,7 @@
 **FS-backed KV storage with value streaming and partial reads**
 
+[![Build Status](https://secure.travis-ci.org/ReclaimSoftware/rs-storage-wrapper.png)](http://travis-ci.org/ReclaimSoftware/rs-storage-wrapper)
+
 
 ### constructor
 
