@@ -53,7 +53,7 @@ class StorageWrapper
     mkdirp dir, c
 
   _validate_key: (key) ->
-    if not key.match /^[ !&'()\[\]a-zA-Z0-9_\/,.+-]+$/
+    if not key.match /^[ !&'()\[\]@a-zA-Z0-9_\/,.+-]+$/
       throw new Error "invalid key: #{JSON.stringify key}"
     if key.indexOf("..") != -1
       throw new Error "invalid key: #{JSON.stringify key}"
